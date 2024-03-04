@@ -28,11 +28,19 @@
         .background-anchor :visited{
             color: yellow;
         }
+
+        p:lang(fr){
+            color: red;
+        }
     </style>
 </head>
 <body>
     <div class="background-green">This is div</div>
 
     <div class="background-anchor"><a href="https://mlwbd.is/">This is a link</a></div>
+
+
+    <p>Paragraph without lang attribute</p>
+    <p lang="fr">Paragraph with lang attribute</p>
 </body>
 </html>
