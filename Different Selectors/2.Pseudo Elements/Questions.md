@@ -34,4 +34,24 @@ CSS combinators are a set of CSS properties that are used to combine multiple se
 
  The first type is the "pseudo-class". This is the most common type of combinator and it's used for styling particular parts of the page or document. The second type is the "class" which is used to group elements together with similar styles. The third type of selector is the "attribute" which allows us to target particular elements on an HTML element with a specific class name.
 
- 
+
+# What are child selector in CSS?
+The child selector is used to find all items that are children of a given element. It establishes a link between two elements.
+
+
+# What is the difference between descendant and child selectors?
+Only HTML elements that are direct offspring of a specified element are selected by the Child combinators (>). The Descendant combinator on the otherhand, chooses all HTML elements that are children, grandkids, great-grandchildren and so on. They're all descendants of a single element, hence they're all choosen.
+
+
+# What is parent/child selector?
+
+All elements that are a direct child of the specified element are selected using the ("parent>child") selection.
+
+# How do you target a child to a parent in CSS?
+
+In CSS, there is currently no mechanism to pick an element's parent.
+
+
+# How do you select the first child in CSS?
+
+You can use the:first-child selection to target the first element that appears inside another element. It is defined as a "structural pseudo-class" in the CSS selectors, which means it is used to style content depending on its relationship with parent and sibling content.
