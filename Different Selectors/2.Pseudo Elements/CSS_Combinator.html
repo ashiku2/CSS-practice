@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS combinators</title>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        h1 ~ p{
+            color: blue;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is an example of General sibling Combinator (~)</h1>
+    <p>This paragraph will affect by the ~</p>
+    <p>This paragraph will affect by the ~</p>
+    <p>This paragraph will affect by the ~</p>
+    <p>This paragraph will affect by the ~</p>
+    <div>This is a div 
+    <p>This paragraph will not affect by the ~</p>
+        This div ends now
+    </div>
+    <p>This paragraph will affect by the ~</p>
+    <p>This paragraph will affect by the ~</p>
+    <p>This paragraph will affect by the ~</p>
+</body>
+</html>
